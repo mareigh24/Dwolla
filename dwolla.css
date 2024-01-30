@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #2d2d48;
+  position: fixed;
+}
+ul {
+  gap: 30px;
+}
+.hero {
+  /* margin-left: 5rem; */
+}
+.first {
+  margin-left: 30px;
+}
+.search {
+  margin-right: 50px;
+}
