@@ -4,7 +4,13 @@
 }
 nav {
   background-color: #2d2d48;
-  position: fixed;
+}
+.paragraph {
+  margin-left: 80px;
+}
+.Leading {
+  background-color: #f1f7fa;
+  background-size: 100%;
 }
 ul {
   gap: 30px;
@@ -71,4 +77,25 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.word {
+  background-color: rgba(45, 45, 72, 0.2);
+  padding: 40px;
+}
+.Word {
+  background-image: linear-gradient(
+    to right,
+    rgba(233, 132, 83, 1),
+    rgba(180, 82, 119, 1)
+  );
+  padding: 70px 150px 70px 150px;
+}
+
+@media (max-width: 576px) {
+  .Word {
+    padding: 0px 0px 0px 0px;
+  }
+  .word {
+    padding: 20px auto;
+  }
 }

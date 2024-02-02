@@ -21,7 +21,7 @@
 <body>
     <!-- navbar -->
     <header>
-        <nav class="container-fluid navbar navbar-expand-lg">
+        <nav class="container-fluid navbar sticky-top navbar-expand-lg">
             <div class="container">
                 <img src="https://res.cloudinary.com/dciu77c43/image/upload/v1706262604/dwolla_pvneqg.svg"
                     style="max-width: 10%;" alt="">
@@ -119,32 +119,48 @@
     </header>
     <!-- end of navbar -->
 
+    <!-- hero section -->
 
-    <div class="container-fluid " style="background-color: #2d2d48; height: 43rem;">
-        <div class="row">
-            <div class="hero col-sm-6 mt-5 p-5">
-                <h1 class=" text-light p-5" style="font-size: 45px; font-family: poppins;">
-                    Digitally transform your <br>payments through a <br> single solution.
+
+    <div class="container-fluid col-xxl-8 px-4 py-5" style="background-color: #2d2d48; width: 100%;">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="https://res.cloudinary.com/dciu77c43/image/upload/v1706271810/homepage_hero_2x-1_2_or4mby.webp"
+                    class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6 p-3">
+                <h1 class=" hero display-5 fw-bold lh-1 mb-3 text-light p-5" style="margin-left: 30px;">Digitally
+                    transform your <br>payments through a
+                    <br>
+                    single
+                    solution.
                 </h1>
-                <p style="margin-left: 45px; font-size: 18px; font-family: Roboto;" class="text-white">
-                    Dwolla's modern approach replaces legacy technology with a <br>unified and streamlined solution,
+                <p class=" paragraph lead text-light" style="font-weight: 400;
+            font-family: Roboto, Arial, Arial;
+            font-size: 18px;">Dwolla's modern approach replaces legacy technology with a
+                    <br>unified
+                    and
+                    streamlined
+                    solution,
                     improving payment security,<br>data visibility and the customer experience.
                 </p>
-                <button class="text-light mt-3"
-                    style="margin-left:45px; padding: 15px; border-radius: 5px; background-color: #ca4c24;">Meet with a
-                    Payment
-                    Expert</button>
-            </div>
-
-            <div class="col-sm-6 mt-5">
-                <img src="https://res.cloudinary.com/dciu77c43/image/upload/v1706271810/homepage_hero_2x-1_2_or4mby.webp"
-                    width="600rem" alt="">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button class="text-light mt-3 p-3"
+                        style="margin-left:80px; padding: 15px; border-radius: 5px; background-color: #ca4c24;">Meet
+                        with a
+                        Payment
+                        Expert</button>
+                </div>
             </div>
         </div>
     </div>
+    <!-- end of hero section -->
 
 
-    <div class="container-fluid" style="background-color: #dfdfdf; padding: 80px 150px;">
+    <!-- brand patners -->
+
+    <div class="container-fluid text-align justify-content-around"
+        style="background-color:#f1f7fa; padding: 80px 150px;">
         <div class="row">
             <div class="col-sm-2">
                 <img src="https://res.cloudinary.com/dciu77c43/image/upload/v1706276873/gasbuddy-logo_zqejzd.svg"
@@ -153,16 +169,17 @@
             <div class="col-sm-2">
                 <img src="https://res.cloudinary.com/dciu77c43/image/upload/v1706276922/goat-logo_gwwtbt.svg" alt="">
             </div>
-            <div class="col-sm-2">
-                <img src="https://res.cloudinary.com/dciu77c43/image/upload/v1706276950/mx-logo_qlgi5b.svg"
-                    width="200rem">
-            </div>
+
             <div class="col-sm-2">
                 <img src="https://res.cloudinary.com/dciu77c43/image/upload/v1706276953/ibotta-logo_mjgv5v.svg" alt="">
             </div>
             <div class="col-sm-2">
                 <img src="https://res.cloudinary.com/dciu77c43/image/upload/v1706276951/masterworks-logo_nfjupo.svg"
-                    width="200rem" alt="">
+                    width="200rem" style="margin-top: 15px;" alt="">
+            </div>
+            <div class="col-sm-2">
+                <img src="https://res.cloudinary.com/dciu77c43/image/upload/v1706276950/mx-logo_qlgi5b.svg"
+                    width="200rem">
             </div>
             <div class="col-sm-2">
                 <img src="https://res.cloudinary.com/dciu77c43/image/upload/v1706362191/routable-logo_hckhxx.svg"
@@ -170,10 +187,10 @@
             </div>
         </div>
     </div>
+    <!-- end of brand partners -->
 
-
-    <div class="container mt-5">
-        <h1 style="font-family:poppins; font-size: 36px; color: #1F1F32;">
+    <div class="container mt-5 p-5">
+        <h1 style="font-family:poppins; font-size: 36px; font-weight: 600px; color: #1F1F32;">
             Powering Payments for Every Industry
         </h1>
         <ul class=" mt-5">
@@ -186,15 +203,16 @@
         <hr>
         <div class="row mt-5">
             <div class="col-sm-6">
-                <h3 style="font-size: 25px; font-family: 'Poppins', sans-serif;">
+                <h3 style="font-size: 25px; font-weight: 500; font-family: 'Poppins', sans-serif;">
                     Digital Payments for the Insurance Industry
                 </h3>
-                <p class="mt-5" style="font-family: 'Poppins', sans-serif; line-height: 30px;">
+                <p class="mt-5" style="font-size: 20px; font-family: 'Poppins', sans-serif; line-height: 30px;">
                     Dwolla empowers insurance companies to eliminate the outdated payment systems and manual processes
                     that negatively
                     impact cash flow, payment predictability, payment security and policyholder experience.
                 </p>
-                <a href="#" style="color: #ca4c2f;"> <i class="fa-solid fa-arrow-right" style="color: #ca4c2f;"></i>
+                <a href="#" style="color: #ca4c2f; font-weight: 400; font-size: 20px;"> <i
+                        class="fa-solid fa-arrow-right" style="color: #ca4c2f; "></i>
                     Learn More</a>
             </div>
             <div class="col-sm-6">
@@ -203,37 +221,35 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid" style="background-color:#f1f7fa; justify-content: center; padding:5% 0% 8% 0%">
-        <h3 class="container" style="text-align: center;">
-            Leading Open Banking in North America
-        </h3>
 
+    <!-- stats -->
+    <div class="container-fluid Leading mt-5 p-5">
+        <div class="p-5 text-center">
+            <h3>Leading Open Banking in North America</h3>
+            <div class="row d-flex justify-content-around mt-5">
+                <div class="col-lg-3 col-md-6 col-sm-8">
+                    <h2>40+</h2>
+                    <p>Partners</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-8">
+                    <h2>20M+</h2>
+                    <p>End-Users</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-8">
+                    <h2>121M+</h2>
+                    <p>Annual Transaction<br />Volumes</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-8">
+                    <h2>$50B+</h2>
+                    <p>Processed in 2023</p>
+                </div>
 
-        <div class="numbering d-flex">
-            <div>
-                <h1><span id="n40">40</span>+</h1>
-                <p>Partners</p>
             </div>
-            <div>
-                <h1><span id="n20">20</span>M+</h1>
-                <p>End Users</p>
-            </div>
-            <div>
-                <h1><span id="n121">121</span>M+</h1>
-                <p>Annual Transaction Volumes</p>
-            </div>
-            <div>
-                <h1>$<span id="n50">50</span>B+</h1>
-                <p>Processed in 2023</p>
-            </div>
-
-
-
-
         </div>
 
-
     </div>
+    <!-- end of stats -->
+
     <div class="col mt-5">
         <h1 class=" mt-5 text-center" style="color: #1F1F32;">
             Your Go-To Payments Partner
@@ -242,7 +258,8 @@
             Dwolla enables businesses to digitally transform their payments through a single solution.
         </p>
     </div>
-    <div class="container flex-wrap mt-5 d-md-flex d-xs-block row-cols-1 row-cols-md-4 g-4 border-none pt-4">
+    <div class="container flex-wrap mt-5 d-md-flex d-xs-block row-cols-1 row-cols-md-4 g-4 border-none pt-4"
+        style="line-height: 200%;">
 
         <div class="col mt-5">
             <div class="card h-100 border-0">
@@ -314,9 +331,9 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-5"
+    <div class=" Word container-fluid mt-5"
         style="background-image: linear-gradient(to right, rgba(233, 132, 83, 1), rgba(180, 82, 119, 1)); padding: 70px 150px 70px 150px;">
-        <div style="background-color: rgba(45, 45, 72, 0.2); padding: 40px; text-align: center;">
+        <div class="word text-center">
             <h4>
                 Ready to get started?
             </h4>
@@ -327,6 +344,10 @@
                 Expert</button>
         </div>
     </div>
+
+
+
+
     <div class="container-fluid text-light p-5" style="background-color: #2d2d48;">
         <p class="text-center">
             "Our return on investment was almost immediate. We were able to get up and running in no time with <br>
@@ -334,6 +355,7 @@
             straightforward API. Dwolla's flexibility our <br>
             customers demand."
         </p>
+        <p class="text-light text-center mt-5"> Transportation <span id="stroke">| </span>CEO</p>
     </div>
     <div class="container">
         <div class="row">
