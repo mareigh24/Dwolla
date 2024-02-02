@@ -96,6 +96,6 @@ ul {
     padding: 0px 0px 0px 0px;
   }
   .word {
-    padding: 20px auto;
+    padding: 20px auto~;
   }
 }
